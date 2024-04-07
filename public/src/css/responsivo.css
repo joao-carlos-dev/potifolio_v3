@@ -38,4 +38,8 @@
     .projetos {
         padding: 30px;
     }
+
+    .projetos .projeto .informacoes-projeto {
+        opacity: 0.70;
+    }
 }
