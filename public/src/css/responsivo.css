@@ -33,10 +33,20 @@
 
     .home .container-foto img {
         max-width: 320px;
+        gap: 5px;
+    }
+
+    .home .tecnologias {
+        display: grid;
+        grid-template-columns: 100px 100px;
     }
 
     .projetos {
         padding: 30px;
+    }
+
+    .projetos .projeto img {
+        opacity: 0.5;
     }
 
     .projetos .projeto .informacoes-projeto {
