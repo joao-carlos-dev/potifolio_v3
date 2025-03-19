@@ -7,7 +7,6 @@ body {
     font-family: "Metal Mania", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
-    /* background: linear-gradient(150deg, #000000, #9e00ff); */
     background-image: linear-gradient(180deg, #65736e 0, #586d68 12.5%, #496763 25%, #37605d 37.5%, #1f5959 50%, #005156 62.5%, #004a54 75%, #004453 87.5%, #003d52 100%);
     background-size: 120% 120%;
 }
@@ -137,7 +136,6 @@ body {
 }
 
 .home .foto.sombra-interna {
-    /* background: linear-gradient(to right, #8a35c8, #18c063, #00eea2); */
     background-image: linear-gradient(to right, #847757 0, #786d45 16.67%, #696332 33.33%, #59591f 50%, #484f09 66.67%, #364600 83.33%, #253e00 100%);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
@@ -181,7 +179,7 @@ body {
 
 .projetos .projeto h3 {
     background-color: #040203;
-    width: 100%;
+    width: 50%;
     padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -249,4 +247,20 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+.acesso {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* .acesso a h3 {
+    border: 1px solid rgb(240, 233, 233);
+} */
+
+.acesso a:hover {
+    color: #589202;
+    border: 1px solid #a5a8a8;
+    transform: scale(1.1);
 }
