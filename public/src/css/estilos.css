@@ -19,9 +19,7 @@ body {
 }
 
 .cabecalho .logo {
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
+  
     border: 2px solid #fff;
     text-decoration: underline;
     text-align: center;
