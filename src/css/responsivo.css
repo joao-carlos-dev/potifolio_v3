@@ -45,11 +45,27 @@
         padding: 30px;
     }
 
+    .projetos .container-projetos {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 15px;
+    }
+
     .projetos .projeto img {
         opacity: 0.5;
     }
 
+    .projetos .projeto {
+        max-height: 250px;
+    }
+
     .projetos .projeto .informacoes-projeto {
         opacity: 0.70;
+        padding: 10px;
+        
+    }
+
+    .informacoes-projeto p {
+        font-size: 10px;
     }
 }
